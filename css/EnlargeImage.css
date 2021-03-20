@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* CSS Document */
+#outerdiv{
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7);
+	z-index:2;
+	width:100%;
+	height:100%;
+	display:none;
+}
+#innerdiv{
+	position:absolute;
+}
+#bigimg{
+	border:5px solid #fff;
+}
+.imgName{
+	/*margin-top:-30px;
+	margin-left:10px;*/
+	background:#DEDEDE;
+	font-size:24px;
+	color:#FFF;
+	font-family: 'Indie Flower', cursive;
+	font-weight:bold;
+	padding-left:10px;
+}
+.images:hover{
+	filter:brightness(.6);
+}
+
+
+
+#top-bar {
+  width: 100%;
+  height: 50px;
+  /*background: #32b3bf;*/
+  background:url(../images/sunsetBG.jpg);
+  position: fixed;
+  top: -5px;
+  -webkit-box-shadow: 0px 8px 15px #333;
+  -moz-box-shadow: 0px 8px 15px #333;
+  box-shadow: 0px 8px 15px #333;
+  z-index:5;
+}
+

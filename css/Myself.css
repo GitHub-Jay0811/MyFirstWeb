@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+#amID{
+	background:#F9F9F9;
+	width:100vw;
+	height:500px;
+}
+.amLeft{
+	width:300px;
+	height:400px;
+	padding-left:270px;
+	padding-top:100px;
+	float:left;
+}
+.amLeftPhoto{
+	background:url(../images/%E5%B1%8F%E6%9D%B1%E4%B8%89%E6%97%A5%E9%81%8A_210111_1.jpg) no-repeat;
+	width:240px;
+	height:270px;
+	background-size:240px 270px;
+	border-radius:50px;
+	margin-top:-10px;
+}
+.amRightTextOne{
+	padding-top:100px;
+}
+.amRightTextThree{
+	margin-top:50px;
+	border-top:1px #CCC solid;
+	font-weight:bold;
+	padding-top:10px;
+}
+.amRight div:first-child{
+	font-family:DFKai-sb;
+	font-weight:bolder;
+	font-size:20px;
+	margin-bottom:8px;
+}
+.amRight div{
+	font-family:DFKai-sb;
+	font-size:18px;
+}

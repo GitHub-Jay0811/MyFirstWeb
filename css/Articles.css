@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.articles{
+	width:100vw;
+	height:1500px;
+	/*background:#A4D1D2;*/
+	display:inline-block;
+	margin-top:10px;
+	padding-top:100px;
+}
+.artImg{
+	width:600px;
+	height:1500px;
+	/*background:#0F9;*/
+	float:left;
+}
+.artImg img{
+	padding:30px 150px;
+}
+.artContent{
+	width:862px;
+	height:1500px;
+	/*background:#CF6;*/
+	float:left;
+}
+.artContent .content{
+	width:600px;
+	height:200px;
+	margin-top:30px;
+	margin-bottom:57px;
+	border:3px #CCC dashed;
+	background:#EEE;
+}
+.artContent .content div{
+	font-size:24px;
+	color:#0F95CE;
+	/*font-family: DFKai-sb;*/
+	font-weight:bold;
+}
+
+#lastID{
+	width:100vw;
+	height:100px;
+}
+.lastText{
+	text-align:right;
+	padding-right:300px;
+	padding-top:60px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size:16px;
+	color:#333;
+}
